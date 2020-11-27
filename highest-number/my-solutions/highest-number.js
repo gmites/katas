@@ -1,9 +1,9 @@
 export function getHighestNumber(numbers){
-    let max=numbers[0];
-    for (let i=0 ; i<numbers.length; i++){
-        if(numbers[i]>max){
-            max=numbers[i];
+    let highestNumber=numbers[0];
+    for (const number of numbers){
+        if(number>max){
+            highestNumber=number;
         }
     }
-    return max;
+    return highestNumber;
 }
