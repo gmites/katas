@@ -1,4 +1,4 @@
-/*export class BeerSong {
+export class BeerSong {
   verse(number: number) {
     switch (number) {
       case 2:
@@ -20,4 +20,4 @@ Take one down and pass it around, ${number - 1} bottles of beer on the wall.\n`
     }
     return song.join('\n')
   }
-}*/
+}
